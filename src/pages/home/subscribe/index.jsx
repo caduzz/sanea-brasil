@@ -7,11 +7,11 @@ export function Subscribe() {
       <div className="w-full max-w-[1250px] h-100 mb-20 flex flex-row align-center">
         <div className="w-[45%] flex flex-col">
           <div className="grid grid-cols-2 grid-rows-2 relative">
+            <div className="w-55 h-45 rounded-2xl overflow-hidden absolute top-22 -left-20">
+              <img className="w-70 h-70 object-cover transform -translate-y-10" src="./slide5.png"/>
+            </div>
             <div className="w-80 h-70 rounded-2xl overflow-hidden">
               <img className="w-full h-full object-cover" src="./slide3.png"/>
-            </div>
-            <div className="w-55 h-45 rounded-2xl overflow-hidden absolute top-10 left-65">
-              <img className="w-full h-full object-cover" src="./slide5.png"/>
             </div>
             <div className="row-start-2 w-60 h-50 overflow-hidden relative">
               <img className="w-full h-full object-cover absolute z-[-1]" src="./svg/grid-subscribe.svg"/>
