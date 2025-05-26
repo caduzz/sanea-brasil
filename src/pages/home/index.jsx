@@ -1,5 +1,6 @@
 import { Header } from "../../components/header";
 import { Banner } from "./banner";
+import { Climate } from "./climate";
 import { Divider } from "./divider";
 import { ExpoSanea } from "./exposanea";
 import { Subscribe } from "./subscribe";
@@ -16,6 +17,7 @@ export function Home() {
         <Testimony />
         <Divider />
         <ExpoSanea />
+        <Climate />
       </main>
     </div>
   );
