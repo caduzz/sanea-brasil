@@ -16,20 +16,29 @@ export function Header() {
         <div className="w-full flex justify-center items-center gap-10">
           <Dropdown.Root title={texts[language].event}>
             <Dropdown.Button>
-              DATA | LOCAL
+              Data e Local
             </Dropdown.Button>
             <Dropdown.Button>
+              Hospedagem
+            </Dropdown.Button>
+            <Dropdown.Button>
+              {texts[language].edition}
+            </Dropdown.Button>
+          </Dropdown.Root>
+           <Dropdown.Root title={texts[language].programming}>
+            <Dropdown.Button href="#programacao">
+              {texts[language].programming}
+            </Dropdown.Button>
+            <Dropdown.Button>
+              HOSPEDAGEM
+            </Dropdown.Button>
+                     <Dropdown.Button>
               HOSPEDAGEM
             </Dropdown.Button>
             <Dropdown.Button>
               {texts[language].edition}
             </Dropdown.Button>
           </Dropdown.Root>
-          <NavButton
-            link="#programming"
-          >
-            {texts[language].programming}
-          </NavButton>
           <NavButton
             href="/exposanea"
           >

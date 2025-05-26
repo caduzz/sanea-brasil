@@ -1,6 +1,6 @@
-export function DropdownButton({ children }) {
+export function DropdownButton({ children, ...props }) {
   return (
-    <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">
+    <a class="block px-4 py-3 text-sm text-white" role="menuitem" tabindex="-1" id="menu-item-0" {...props}>
       {children}
     </a>
   );
