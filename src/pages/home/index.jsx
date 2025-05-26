@@ -5,6 +5,7 @@ import { Divider } from "./divider";
 import { ExpoSanea } from "./exposanea";
 import { Subscribe } from "./subscribe";
 import { Testimony } from "./testimony";
+import { Theme } from "./theme";
 
 export function Home() {
 
@@ -18,6 +19,7 @@ export function Home() {
         <Divider />
         <ExpoSanea />
         <Climate />
+        <Theme />
       </main>
     </div>
   );
