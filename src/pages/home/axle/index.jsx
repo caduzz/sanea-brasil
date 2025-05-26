@@ -9,7 +9,7 @@ export function Exle() {
             O II Sanea Brasil reconhece seu papel na agenda de adaptação às mudanças climáticas, contemplando os 4 eixos do saneamento.
           </h2>
         </div>
-        <div className="w-full flex flex-row warap items-center justify-center gap-10">
+        <div className="w-full flex flex-row flex-wrap items-center justify-center gap-10">
           <Card title="água potável" image={"./card1.png"}/>
           <Card title="resíduos sólidos" image={"./card2.png"}/>
           <Card title="Esgotamento sanitário" image={"./card3.png"}/>
