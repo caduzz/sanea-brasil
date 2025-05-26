@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { LanguageContext } from "../../contexts/LanguageContext";
 
 import { texts } from "../../constants/texts";
@@ -9,55 +9,63 @@ import Dropdown from "../ui/dropdown";
 
 export function Header() {
   const { language } = useContext(LanguageContext);
+  const [openDropdown, setOpenDropdown] = useState(null);
 
   return (
     <header className="w-full h-14 bg-[#235D89] px-4 py-2">
       <nav className="w-full h-full flex items-center">
         <div className="w-full flex justify-center items-center gap-10">
-          <Dropdown.Root title={texts[language].event}>
+          <Dropdown.Root
+            title={texts[language].event}
+          >
             <Dropdown.Button>
-              Data e Local
+              {texts[language].date}
             </Dropdown.Button>
             <Dropdown.Button>
-              Hospedagem
+              {texts[language].information}
+            </Dropdown.Button>
+            <Dropdown.Button>
+             {texts[language].hosting}
             </Dropdown.Button>
             <Dropdown.Button>
               {texts[language].edition}
             </Dropdown.Button>
           </Dropdown.Root>
-           <Dropdown.Root title={texts[language].programming}>
-            <Dropdown.Button href="#programacao">
-              {texts[language].programming}
+          <Dropdown.Root
+            title={texts[language].programming}
+          >
+            <Dropdown.Button>
+              {texts[language].painels}
             </Dropdown.Button>
             <Dropdown.Button>
-              HOSPEDAGEM
-            </Dropdown.Button>
-                     <Dropdown.Button>
-              HOSPEDAGEM
+             {texts[language].miniCourse}
             </Dropdown.Button>
             <Dropdown.Button>
-              {texts[language].edition}
+              {texts[language].visit}
             </Dropdown.Button>
           </Dropdown.Root>
-          <NavButton
-            href="/exposanea"
-          >
-            {texts[language].exposanea}
+          <NavButton>
+            {texts[language].speakers}
           </NavButton>
-          <NavButton
-            link="#works"
+          <Dropdown.Root
+            title={texts[language].submissions}
           >
-            {texts[language].works}
-          </NavButton>
-          <NavButton
-            href="/edicao2024"
+            <Dropdown.Button>
+              {texts[language].modelApresentation}
+            </Dropdown.Button>
+            <Dropdown.Button>
+             {texts[language].modelEposter}
+            </Dropdown.Button>
+          </Dropdown.Root>
+           <Dropdown.Root
+            title={texts[language].exposanea}
           >
-            {texts[language].edition}
-          </NavButton>
-          <NavButton
-            link="#contact"
-          >
-            {texts[language].contact}
+            <Dropdown.Button>
+             {texts[language].exhibitors}
+            </Dropdown.Button>
+          </Dropdown.Root>
+          <NavButton>
+            {texts[language].register}
           </NavButton>
         </div>
         <div className="flex items-center gap-2 absolute right-4">

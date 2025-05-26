@@ -1,4 +1,5 @@
 import { Header } from "../../components/header";
+import { Exle } from "./axle";
 import { Banner } from "./banner";
 import { Climate } from "./climate";
 import { Divider } from "./divider";
@@ -20,6 +21,7 @@ export function Home() {
         <ExpoSanea />
         <Climate />
         <Theme />
+        <Exle />
       </main>
     </div>
   );
