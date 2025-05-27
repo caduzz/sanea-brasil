@@ -5,11 +5,11 @@ export function Testimony() {
     <section id="testimony" className="w-full flex items-center justify-center p-10">
       <div className="w-full max-w-[1250px] flex flex-col items-center">
         <Title>Participe e conecte-se com especialistas nacionais <br/>e internacionais do setor.</Title>
-        <div className="w-full flex items-center justify-center">
-          <div className="w-120 h-130 rounded-2xl overflow-hidden transform translate-x-10">
+        <div className="w-full flex flex-col items-center justify-center md:flex-row">
+          <div className="w-full md:w-120 md:h-130 md:rounded-2xl rounded-t-2xl overflow-hidden transform translate-y-10 md:translate-x-10">
             <img className="w-full h-full object-cover" src="./anderson.png"/>
           </div>
-          <div className="w-150 rounded-2xl bg-white shadow-2xl transform -translate-x-10">
+          <div className="w-full md:w-150 md:rounded-2xl rounded-b-2xl bg-white shadow-2xl transform -translate-y-10 md:-translate-x-10">
             <div className="flex flex-col p-10 gap-4">
               <div className="w-full">
                 <img className="size-8" src="./svg/quote-left.svg"/>

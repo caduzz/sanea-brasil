@@ -2,26 +2,26 @@ export function Footer() {
   return (
     <footer className="w-full bg-[#235D89] text-white flex items-center justify-center">
       <div className="w-[1400px] h-[400px] container mx-auto flex flex-col items-center relative overflow-hidden">
-        <img src="./svg/map.svg" alt="Sanea Brasil Logo" className="mb-4 w-[1800px] absolute opacity-20 z-0" />
+        <img src="./svg/map.svg" alt="sanea brasil 2025 - map.svg" className="mb-4 w-[1800px] absolute opacity-20 z-0" />
         <div className="z-1">
           <div className="w-full flex py-15 gap-20">
             <div>
               <h1 className="text-2xl uppercase font-bold">Realização:</h1>
               <div className="flex items-center justify-center gap-10 mt-4">
-                <img src="./logo-univasf.png" alt="Sanea Brasil Logo" className="w-[200px]" />
+                <img src="./logo-univasf.png" alt="sanea brasil 2025 - logo-univasf.png" className="w-[200px]" />
               </div>
             </div>
             <div>
               <h1 className="text-2xl uppercase font-bold">Apoiadores:</h1>
               <div className="flex items-center justify-center gap-10 mt-4">
-                <img src="./logos-contri.png" alt="Sanea Brasil Logo" className="w-[700px]" />
+                <img src="./logos-contri.png" alt="sanea brasil 2025 - logos-contri.png" className="w-[700px]" />
               </div>
             </div>
             <div>
               <h1 className="text-2xl uppercase font-bold">Apoio institucional:</h1>
               <div className="flex items-center justify-center gap-10 mt-4">
-                <img src="./logo-petrolina.png" alt="Sanea Brasil Logo" className="w-[150px]" />
-                <img src="./logo-fadex.png" alt="Sanea Brasil Logo" className="w-[150px]" />
+                <img src="./logo-petrolina.png" alt="sanea brasil 2025 - logo-petrolina.png" className="w-[150px]" />
+                <img src="./logo-fadex.png" alt="sanea brasil 2025 - logo-fadex.png" className="w-[150px]" />
               </div>
             </div>
           </div>

@@ -2,8 +2,8 @@
 export function Theme() {
   return (
     <section id="tema" className="w-full flex justify-center p-10">
-      <div className="w-full max-w-[1250px] flex flex-row items-center justify-center">
-        <div className="w-[50%] flex flex-col">
+      <div className="w-full max-w-[1250px] flex flex-col md:flex-row items-center justify-center">
+        <div className="md:w-[50%] w-full flex flex-col">
           <div className="grid grid-cols-2 grid-rows-4 gap-8">
             <div className="w-full row-span-2 relative">
               <div className="w-full h-full rounded-2xl absolute border-[1px] border-[#235D89] z-1">
@@ -24,7 +24,7 @@ export function Theme() {
             </div>
           </div>
         </div>
-        <div className="w-[60%] h-full flex flex-col gap-4 ml-20">
+        <div className="md:w-[60%] w-full h-full flex flex-col gap-4 md:ml-20">
           <h1 className="text-4xl font-bold uppercase text-[#235D89] my-10">
             Falando sobre o tema
           </h1>
