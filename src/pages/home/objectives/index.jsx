@@ -1,7 +1,7 @@
 
 export function Objectives() {
   return (
-    <section id="exposanea" className="w-full flex items-center justify-center p-10">
+    <section id="exposanea" className="w-full flex items-center justify-center p-10 mb-40">
       <div className="w-full max-w-[1250px] flex flex-row align-center justify-center">
         <div className="w-full bg-[#235D89]/9 rounded-4xl p-10 pb-50 flex flex-col items-center justify-center relative">
           <h1 className="text-[#235D89] text-3xl text-center mb-4">

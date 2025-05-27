@@ -1,8 +1,9 @@
+import { Footer } from "../../components/footer";
 import { Header } from "../../components/header";
 import { Exle } from "./axle";
 import { Banner } from "./banner";
 import { Climate } from "./climate";
-import Counter from "./counter";
+
 import { Divider } from "./divider";
 import { ExpoSanea } from "./exposanea";
 import { Objectives } from "./objectives";
@@ -27,7 +28,7 @@ export function Home() {
         <Exle />
         <Panel />
         <Objectives />
-        <Counter />
+        <Footer />
       </main>
     </div>
   );
