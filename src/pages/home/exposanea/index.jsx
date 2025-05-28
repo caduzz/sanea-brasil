@@ -29,8 +29,8 @@ export function ExpoSanea() {
             <Button Icon={LiaArrowRightSolid} className="rounded-full">
               Seja um Expositor
             </Button>
-            <div className="flex">
-              <div className="bg-[#235D89] rounded-full p-3 mr-2 flex items-center justify-center">
+            <div className="flex items-center">
+              <div className="bg-[#235D89] rounded-full w-10 h-10 mr-2 flex items-center justify-center">
                 <LiaWhatsapp className="text-white text-2xl" />
               </div>
               <div>

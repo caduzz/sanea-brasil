@@ -34,7 +34,7 @@ export function Objectives() {
           </div>
           <div className="md:absolute mt-10 md:-bottom-35 w-full md:w-200 md:h-70 bg-[#235D89] rounded-2xl flex md:flex-row flex-col items-center justify-betweend gap-10 p-10">
             <img src="./svg/map.svg" alt="Objetivos de Desenvolvimento Sustentável" className="w-90 object-cover rounded-4xl" />
-            <h2 className="text-white text-1xl font-light">
+            <h2 className="text-white text-1xl font-light text-justify">
               O evento fortalece o diálogo entre diferentes setores — público,
               privado, acadêmico e social — em torno de soluções inovadoras
               e integradas para o Saneamento Básico Rural.
