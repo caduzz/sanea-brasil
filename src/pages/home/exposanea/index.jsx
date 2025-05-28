@@ -25,11 +25,11 @@ export function ExpoSanea() {
               produtos e serviços voltados para o setor de saneamento rural.
             </p>
           </div>
-          <div className="w-full flex items-center justify-between gap-2 mt-4">
+          <div className="w-full flex md:items-center md:justify-between gap-2 mt-4 md:flex-row flex-col-reverse">
             <Button Icon={LiaArrowRightSolid} className="rounded-full">
               Seja um Expositor
             </Button>
-            <div className="flex items-center">
+            <div className="flex items-center mb-10 md:mb-0">
               <div className="bg-[#235D89] rounded-full w-10 h-10 mr-2 flex items-center justify-center">
                 <LiaWhatsapp className="text-white text-2xl" />
               </div>

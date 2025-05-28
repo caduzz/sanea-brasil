@@ -1,6 +1,6 @@
 export function Title({ children }) {
   return (
-    <div className="w-full max-w-[950px] grid grid-cols-[auto_1fr_auto] gap-x-2 items-start text-[#235D89] mb-5 md:mb-30">
+    <div className="w-full max-w-[950px] grid grid-cols-[auto_1fr_auto] gap-x-2 items-start text-[#235D89] mb-0 md:mb-30">
       {/* Aspas esquerda no topo */}
       <img
         className="w-4 h-4 md:w-10 md:h-10 self-start"

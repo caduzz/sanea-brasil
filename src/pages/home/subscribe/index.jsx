@@ -4,7 +4,7 @@ import { Button } from "../../../components/ui/button";
 export function Subscribe() {
   return (
     <section id="subscribe" className="w-full flex items-center justify-center p-10">
-      <div className="w-full max-w-[1250px] mb-20 flex flex-col items-center md:flex-row">
+      <div className="w-full max-w-[1250px] md:mb-20 flex flex-col items-center md:flex-row">
         <div className="w-full h-100 flex flex-row jutify-center md:w-[45%]">
           <div className="grid grid-cols-2 grid-rows-2 relative gap-5 md:gap-0">
             <div className="md:w-55 md:h-45 rounded-2xl overflow-hidden z-1 transform md:translate-y-25">
