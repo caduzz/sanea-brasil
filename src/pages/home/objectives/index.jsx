@@ -5,8 +5,8 @@ export function Objectives() {
   return (
     <section id="exposanea" className="w-full flex items-center justify-center p-10 md:mb-40">
       <div className="w-full max-w-[1250px] flex flex-row align-center justify-center">
-        <div className="w-full bg-[#235D89]/9 rounded-4xl p-10 md:pb-50 flex flex-col items-center justify-center relative">
-          <h1 className="text-[#235D89] text-3xl text-center mb-4">
+        <div className="w-full bg-[#235D89]/9 rounded-4xl pt-10 md:pb-50 flex flex-col items-center justify-center relative">
+          <h1 className="text-[#235D89] mb-4 px-10 text-lg text-justify md:text-3xl md:text-center md:px-0">
             O <strong>II Sanea Brasil</strong> está fortemente alinhado à <strong>Agenda 2030</strong>,
             promovendo ações e debates que contribuem diretamente para 
             a realização dos <strong>Objetivos de Desenvolvimento Sustentável (ODS).</strong>
