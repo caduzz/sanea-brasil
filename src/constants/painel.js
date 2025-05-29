@@ -2,81 +2,113 @@ export const painelData = [
   {
     "id": 1,
     "title": "PAINEL",
-    "desc": "A Universalização no Rural como Estratégia de Justiça Climática e Ambiental"
+    "description": "Universalização do Saneamento Rural como Instrumento do Desenvolvimento Sustentável",
+    "data": "30/10",
+    "hora": "8h30 às 10h10"
   },
   {
     "id": 2,
     "title": "PAINEL 2",
-    "desc": "A Conferência das Nações Unidas sobre Mudança do Clima (COP 30) e o Saneamento Rural"
+    "description": "Integração Territorial e Climática: O Saneamento Rural como Eixo Estratégico da COP 30",
+    "data": "30/10",
+    "hora": "10h30 às 12h10"
   },
   {
     "id": 3,
     "title": "PAINEL 3",
-    "desc": "Financiamento Sustentável como Estratégia de Adaptação Climática"
+    "description": "Financiamento Sustentável como Estratégia de Adaptação Climática",
+    "data": "30/10",
+    "hora": "14h30 às 16h05"
   },
   {
     "id": 4,
     "title": "PAINEL 4",
-    "desc": "Modelos de Gestão Comunitária e sua Contribuição para a Sustentabilidade e Resiliência"
+    "description": "Modelos de Gestão Descentralizada e sua Contribuição para a Sustentabilidade e Resiliência",
+    "data": "30/10",
+    "hora": "16h15 às 17h40"
   },
   {
     "id": 5,
     "title": "PAINEL 5",
-    "desc": "Inovação Verde: Soluções Baseadas na Natureza, Economia Circular e Valorização de Resíduos"
+    "description": "Inovação Verde: Soluções Baseadas na Natureza, Economia Circular e Valorização de Resíduos",
+    "data": "30/10",
+    "hora": "8h às 10h"
   },
   {
     "id": 6,
     "title": "PAINEL 6",
-    "desc": "Infraestrutura Hídrica no Meio Rural: Tecnologias para Captação, Abastecimento e Tratamento de Água"
+    "description": "Infraestrutura Tecnológica no Meio Rural: Captação, Abastecimento e Tratamento de Água",
+    "data": "30/10",
+    "hora": "10h30 às 12h10"
   },
-  {
+    {
     "id": 7,
     "title": "PAINEL 7",
-    "desc": "Tecnologias para o Saneamento Rural: Esgotamento Sanitário e Resíduos Sólidos"
+    "description": "Tecnologias para o Saneamento Rural: Esgotamento Sanitário e Resíduos Sólidos",
+    "data": "30/10",
+    "hora": "14h às 15h40"
   },
   {
     "id": 8,
     "title": "PAINEL 8",
-    "desc": "Drenagem e Manejo de Águas Pluviais no Rural: Estratégias para Adaptação Climática"
+    "description": "Drenagem e Manejo de Águas Pluviais no Rural: Estratégias para Adaptação Climática",
+    "data": "30/10",
+    "hora": "16h às 17h40"
   },
   {
     "id": 9,
     "title": "PAINEL 9",
-    "desc": "Experiências Internacionais de Resiliência Climática no Saneamento Rural"
+    "description": "Experiências Internacionais de Resiliência Climática no Saneamento Rural",
+    "data": "31/10",
+    "hora": "8h30 às 10h10"
   },
   {
     "id": 10,
     "title": "PAINEL 10",
-    "desc": "Experiências Nacionais de Resiliência Climática no Saneamento Rural"
+    "description": "Experiências Nacionais de Resiliência Climática no Saneamento Rural",
+    "data": "31/10",
+    "hora": "10h30 às 12h10"
   },
   {
     "id": 11,
     "title": "PAINEL 11",
-    "desc": "Prestação Regionalizada dos Serviços de Saneamento sob a Perspectiva do Rural"
+    "description": "Prestação Regionalizada dos Serviços de Saneamento sob a Perspectiva do Rural",
+    "data": "31/10",
+    "hora": "14h às 15h40"
   },
   {
     "id": 12,
     "title": "PAINEL 12",
-    "desc": "Integração dos Planos Municipais de Saneamento com os Planos Climáticos"
+    "description": "Integração dos Planos Municipais de Saneamento com os Planos Climáticos",
+    "data": "31/10",
+    "hora": "16h às 17h40"
   },
-  {
+    {
     "id": 13,
     "title": "PAINEL 13",
-    "desc": "Lorem Ipsum is simply dummy text th printing and typese Lorem Ipm been the industry’s standard"
+    "description": "SINISA: Estruturando o Módulo Ideal para o Saneamento Rural",
+    "data": "31/10",
+    "hora": "8h30 às 10h10"
   },
   {
     "id": 14,
     "title": "PAINEL 14",
-    "desc": "Lorem Ipsum is simply dummy text th printing and typese Lorem Ipm been the industry’s standard"
+    "description": "Interfaces entre Saneamento Rural, Saúde Pública e Desenvolvimento Regional",
+    "data": "31/10",
+    "hora": "8h30 às 10h10"
   },
   {
     "id": 15,
     "title": "PAINEL 15",
-    "desc": "Lorem Ipsum is simply dummy text th printing and typese Lorem Ipm been the industry’s standard"
+    "description": "Educação Ambiental e Políticas Públicas para o Saneamento e a Saúde dos Povos Tradicionais",
+    "data": "31/10",
+    "hora": "14h às 15h40"
   },
   {
     "id": 16,
     "title": "PAINEL 16",
-    "desc": "Agenda Regulatória e Fiscalização no Saneamento Rural"
+    "description": "Agenda Regulatória e Fiscalização no Saneamento Rural",
+    "data": "31/10",
+    "hora": "16h às 17h40"
   }
 ]

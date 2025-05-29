@@ -1,3 +1,5 @@
+import { odsData } from "../../../constants/ods";
+import { ObjectiveCard } from "./objectiveCard";
 
 export function Objectives() {
   return (
@@ -10,27 +12,7 @@ export function Objectives() {
             a realização dos <strong>Objetivos de Desenvolvimento Sustentável (ODS).</strong>
           </h1>
           <div className="w-full flex flex-wrap items-center justify-center gap-15 mt-15">
-            <div className="w-50 h-60 p-5 flex items-center justify-center shadow bg-white rounded-md overflow-hidden">
-              <img src="./svg/ods3.svg" alt="sanea brasil 2025 - Objetivo 1: Saude e bem-estar" className="w-full object-cover rounded-md" />
-            </div>
-            <div className="w-50 h-60 p-5 flex items-center justify-center shadow bg-white rounded-md overflow-hidden">
-              <img src="./svg/ods4.svg" alt="sanea brasil 2025 - Objetivo 1: Saude e bem-estar" className="w-full object-cover rounded-md" />
-            </div>
-            <div className="w-50 h-60 p-5 flex items-center justify-center shadow bg-white rounded-md overflow-hidden">
-              <img src="./svg/ods5.svg" alt="sanea brasil 2025 - Objetivo 1: Saude e bem-estar" className="w-full object-cover rounded-md" />
-            </div>
-            <div className="w-50 h-60 p-5 flex items-center justify-center shadow bg-white rounded-md overflow-hidden">
-              <img src="./svg/ods6.svg" alt="sanea brasil 2025 - Objetivo 1: Saude e bem-estar" className="w-full object-cover rounded-md" />
-            </div>
-            <div className="w-50 h-60 p-5 flex items-center justify-center shadow bg-white rounded-md overflow-hidden">
-              <img src="./svg/ods10.svg" alt="sanea brasil 2025 - Objetivo 1: Saude e bem-estar" className="w-full object-cover rounded-md" />
-            </div>
-            <div className="w-50 h-60 p-5 flex items-center justify-center shadow bg-white rounded-md overflow-hidden">
-              <img src="./svg/ods11.svg" alt="sanea brasil 2025 - Objetivo 1: Saude e bem-estar" className="w-full object-cover rounded-md" />
-            </div>
-            <div className="w-50 h-60 p-5 flex items-center justify-center shadow bg-white rounded-md overflow-hidden">
-              <img src="./svg/ods13.svg" alt="sanea brasil 2025 - Objetivo 1: Saude e bem-estar" className="w-full object-cover rounded-md" />
-            </div>
+            {odsData.map((item) => <ObjectiveCard id={item.id} title={item.title} icon={item.icon} color={item.color}/>)}
           </div>
           <div className="md:absolute mt-10 md:-bottom-35 w-full md:w-200 md:h-70 bg-[#235D89] rounded-2xl flex md:flex-row flex-col items-center justify-betweend gap-10 p-10">
             <img src="./svg/map.svg" alt="Objetivos de Desenvolvimento Sustentável" className="w-90 object-cover rounded-4xl" />
