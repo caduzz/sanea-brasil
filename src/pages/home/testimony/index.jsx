@@ -10,22 +10,22 @@ export function Testimony() {
             <img className="w-full h-full object-cover" src="./anderson.png"/>
           </div>
           <div className="w-full md:w-150 md:rounded-2xl rounded-b-2xl bg-white shadow-2xl transform -translate-y-10 md:-translate-x-10">
-            <div className="flex flex-col p-10 gap-4">
+            <div className="flex flex-col p-4 md:p-10 gap-4">
               <div className="w-full">
-                <img className="size-8" src="./svg/quote-left.svg"/>
-                <p className="text-[#235D89] text-md">
+                <img className="size-5 md:size-8" src="./svg/quote-left.svg"/>
+                <p className="text-[#235D89] text-sm md:text-md">
                   Nessa edição assumimos o compromisso ainda mais relevante:
                   enfrentar os desafios impostos pelas mudanças climáticas no contexto do saneamento rural.
                   Agradecemos a presença de cada um de vocês e convidamos a aproveitar este espaço de troca de conhecimentos,
                   experiências e parcerias, fundamentais para construirmos, juntos, um futuro mais justo, sustentável e resiliente.
                   Sejam muito bem-vindos ao II Sanea Brasil!
                 </p>
-                <img className="size-8" src="./svg/quote-right.svg"/>
+                <img className="size-5 md:size-8" src="./svg/quote-right.svg"/>
               </div>
               <div className="w-full flex items-center justify-between">
                 <div>
-                  <h3 className="text-[#235D89] font-bold">Anderson Miranda de Souza</h3>
-                  <p className="text-[#0008] font-light">Presidente do Sanea Brasil</p>
+                  <h3 className="text-[#235D89] md:text-md text-sm font-bold">Anderson Miranda de Souza</h3>
+                  <p className="text-[#0008] md:text-md text-sm font-light">Presidente do Sanea Brasil</p>
                 </div>
                 <img src="./svg/dot.svg" />
               </div>
