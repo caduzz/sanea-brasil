@@ -33,7 +33,7 @@ export function Subscribe() {
             o desenvolvimento de tecnologias inovadoras e a ampliação de parcerias estratégicas,
             garantindo um futuro mais sustentável e acessível para todos. 
           </p>
-          <Button Icon={LiaArrowRightSolid} className="mt-10">
+          <Button Icon={LiaArrowRightSolid} href="https://www.even3.com.br/2saneabrasil/" className="mt-10">
             Inscreva-se
           </Button>
         </div>

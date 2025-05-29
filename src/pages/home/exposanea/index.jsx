@@ -26,7 +26,7 @@ export function ExpoSanea() {
             </p>
           </div>
           <div className="w-full flex md:items-center md:justify-between gap-2 mt-4 md:flex-row flex-col-reverse">
-            <Button Icon={LiaArrowRightSolid} className="rounded-full">
+            <Button Icon={LiaArrowRightSolid} className="rounded-full" href={""}>
               Seja um Expositor
             </Button>
             <div className="flex items-center mb-10 md:mb-0">

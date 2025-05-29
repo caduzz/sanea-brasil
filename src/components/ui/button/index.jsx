@@ -1,6 +1,4 @@
-import { redirect } from "react-router-dom";
-
-export function Button({ children, Icon, className }) {
+export function Button({ children, Icon, className, styleIcon, href }) {
   return (
     <button
       className={`
@@ -13,8 +11,9 @@ export function Button({ children, Icon, className }) {
         transition delay-15 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-[#234789]
         ${className}`
       }
+      onClick={() => window.open(href, '_blank')}
     >
-      {children} <Icon className="text-white size-5" />
+      {children} <Icon className={"text-white size-5" + styleIcon} />
     </button>
   );
 }

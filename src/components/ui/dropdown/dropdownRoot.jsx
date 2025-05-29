@@ -4,7 +4,9 @@ import clsx from "clsx";
 
 export function DropdownRoot({ children, title }) {
   const [open, setOpen] = useState(false);
+  const [height, setHeight] = useState(0);
   const dropdownRef = useRef(null);
+  const contentRef = useRef(null);
 
   useEffect(() => {
     function handleClickOutside(event) {
@@ -24,8 +26,17 @@ export function DropdownRoot({ children, title }) {
     };
   }, [open]);
 
+  // Animação de altura suave
+  useEffect(() => {
+    if (open && contentRef.current) {
+      setHeight(contentRef.current.scrollHeight);
+    } else {
+      setHeight(0);
+    }
+  }, [open, children]);
+
   return (
-    <div className="relative inline-block text-left" ref={dropdownRef}>
+    <div className="relative inline-block text-left w-full" ref={dropdownRef}>
       <button
         type="button"
         className="text-white text-lg font-light font-[Bahnschrift] cursor-pointer flex justify-center items-center"
@@ -39,16 +50,23 @@ export function DropdownRoot({ children, title }) {
 
       <div
         className={clsx(
-          "absolute left-1/2 -translate-x-1/2 z-10 mt-3 origin-top transform transition-all duration-300 ease-out min-w-[10rem]",
-          open
-            ? "scale-100 opacity-100"
-            : "scale-95 opacity-0 pointer-events-none",
-          "rounded-b-md bg-[#235D89] shadow-lg ring-1 ring-black/5 divide-y divide-[#238989]"
+          // Em telas médias ou maiores, dropdown é absoluto.
+          "md:absolute md:left-1/2 md:-translate-x-1/2 z-10 mt-3 origin-top transform transition-all duration-200 ease-out min-w-[10rem]",
+          // Em telas pequenas, dropdown é estático e ocupa largura total.
+          "w-full md:w-auto static md:mt-3",
+          open ? "opacity-100" : "opacity-0",
+          "overflow-hidden rounded-b-md bg-[#235D89] md:shadow-lg ring-1 ring-black/5 divide-y"
         )}
+        style={{
+          transition: "height 0.3s ease, opacity 0.3s ease",
+          height: open ? height : 0,
+        }}
         role="menu"
         aria-orientation="vertical"
       >
-        {children}
+        <div ref={contentRef}>
+          {children}
+        </div>
       </div>
     </div>
   );
