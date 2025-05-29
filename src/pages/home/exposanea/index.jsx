@@ -7,7 +7,7 @@ export function ExpoSanea() {
       <div className="w-full max-w-[1250px] flex flex-col md:flex-row align-center justify-center gap-30">
         <div className="w-full md:w-85 h-95 relative">
           <div className="w-full h-full border-3 border-[#235D89] rounded-[10px] absolute z-1">
-            <div className="w-40 h-16 bg-[#235D89] text-white rounded-[10px] absolute bottom-10 right-10 md:right-[-60px] gap-1 flex items-center justify-center">
+            <div className="w-40 h-16 bg-[#235D89] text-white rounded-[10px] absolute bottom-4 -right-4 md:right-[-60px] md:bottom-10 gap-1 flex items-center justify-center">
               <h1 className="text-3xl font-bold">48</h1>
               <p className="font-light">Estandes</p>
             </div>
