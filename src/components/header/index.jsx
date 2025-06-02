@@ -42,15 +42,15 @@ export function Header() {
                 <Dropdown.Button>{texts[language].date}</Dropdown.Button>
                 <Dropdown.Button>{texts[language].information}</Dropdown.Button>
                 <Dropdown.Button>{texts[language].hosting}</Dropdown.Button>
-                <Dropdown.Button>{texts[language].edition}</Dropdown.Button>
+                <Dropdown.Button href="/edicao2024">{texts[language].edition}</Dropdown.Button>
               </Dropdown.Root>
               <Dropdown.Root title={texts[language].programming}>
-                <Dropdown.Button>{texts[language].painels}</Dropdown.Button>
-                <Dropdown.Button>{texts[language].miniCourse}</Dropdown.Button>
+                <Dropdown.Button href="#paineis">{texts[language].painels}</Dropdown.Button>
+                <Dropdown.Button href="/programming">{texts[language].miniCourse}</Dropdown.Button>
                 <Dropdown.Button>{texts[language].visit}</Dropdown.Button>
               </Dropdown.Root>
               <NavButton>{texts[language].speakers}</NavButton>
-              <NavButton href="/subimission">{texts[language].submissions}</NavButton>
+              <NavButton href="/submission">{texts[language].submissions}</NavButton>
               <Dropdown.Root title={texts[language].exposanea}>
                 <Dropdown.Button>{texts[language].exhibitors}</Dropdown.Button>
               </Dropdown.Root>

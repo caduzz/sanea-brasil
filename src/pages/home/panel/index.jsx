@@ -2,7 +2,7 @@ import { painelData } from "../../../constants/painel";
 
 export function Panel() {
   return (
-    <section id="exposanea" className="w-full flex items-center justify-center p-10">
+    <section id="paineis" className="w-full flex items-center justify-center p-10">
       <div className="w-full max-w-[1250px] flex md:flex-row flex-col align-center justify-center gap-10 md:gap-60 relative">
         <div className="md:bg-[#235D89] md:pt-10 pointer-events-none select-none md:absolute rounded-t-4xl md:-left-50 md:top-1/2 md:-translate-y-1/2 md:-rotate-90 z-0 w-full md:w-[800px] md:h-[400px] flex items-center justify-center md:items-start">
           <h1 className="text-3xl md:text-[70px] font-bold text-[#235D89] md:text-white text-center">Painéis temáticos</h1>

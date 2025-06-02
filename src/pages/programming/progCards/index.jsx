@@ -1,0 +1,22 @@
+import { programming } from "../../../constants/programming";
+
+export function ProgCard () {
+  return (
+    <div className="flex flex-col items-start w-full mb-20">
+      {programming.map(({ data, dia, atividades}) => (
+        <div key={dia+data} className="w-full flex flex-col items-start justify-start gap-4 mt-8">
+          <div className="w-auto p-6 bg-[#477599] rounded-2xl">
+            <h1 className="text-white text-2xl font-bold">{data}: {dia}</h1>
+          </div>
+          <div className="w-full flex flex-col gap-4 my-2">
+            {atividades.map(item => (
+              <div className="p-4 bg-[#a7bed0] rounded-2xl">
+                <h2 className="text-[#345772] font-bold">{item}</h2>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  )
+}

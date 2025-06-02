@@ -20,6 +20,7 @@ export function NavButton({ children, link, href, ...rest }) {
   return (
     <a
       href={link ? link : href}
+      
       onClick={(e) => {
         if (link) {
           e.preventDefault();

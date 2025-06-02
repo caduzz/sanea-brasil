@@ -9,19 +9,21 @@ export function Footer() {
         />
         <div className="z-10 w-full">
           <div className="w-full flex flex-col md:flex-row py-10 md:py-15 gap-10 md:gap-20 items-center md:items-start">
-            <div className="flex-1 flex flex-col items-center md:items-start">
+            <div className="flex flex-col items-center md:items-start">
               <h1 className="text-xl md:text-2xl uppercase font-bold">Realização:</h1>
               <div className="flex items-center justify-center gap-6 md:gap-10 mt-4">
                 <img src="./logo-univasf.png" alt="sanea brasil 2025 - logo-univasf.png" className="w-[140px] md:w-[200px]" />
               </div>
             </div>
-            <div className="flex-1 flex flex-col items-center md:items-start">
+            <div className="flex flex-col items-center md:items-start">
               <h1 className="text-xl md:text-2xl uppercase font-bold">Apoiadores:</h1>
               <div className="flex items-center justify-center gap-6 md:gap-10 mt-4">
-                <img src="./logos-contri.png" alt="sanea brasil 2025 - logos-contri.png" className="w-[300px] md:w-[700px]" />
+                <img src="./svg/logo-niesa.svg" alt="sanea brasil 2025 - logos-contri.png" className="w-[90px] md:w-[150px]" />
+                <img src="./secretaria-logo.png" alt="sanea brasil 2025 - logos-contri.png" className="w-[90px] md:w-[150px]" />
+                <img src="./logo-governo.png" alt="sanea brasil 2025 - logos-contri.png" className="w-[90px] md:w-[150px]" />
               </div>
             </div>
-            <div className="flex-1 flex flex-col items-center md:items-start">
+            <div className="flex flex-col items-center md:items-start">
               <h1 className="text-xl md:text-2xl uppercase font-bold">Apoio institucional:</h1>
               <div className="flex items-center justify-center gap-6 md:gap-10 mt-4">
                 <img src="./logo-petrolina.png" alt="sanea brasil 2025 - logo-petrolina.png" className="w-[90px] md:w-[150px]" />

@@ -5,7 +5,6 @@ import { PageHeader } from "../../components/ui/pageHeader";
 import { EixoCard } from "./eixoCards";
 
 export function Submission() {
-
   return (
     <div>
       <Header />

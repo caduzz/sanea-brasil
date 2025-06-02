@@ -14,7 +14,7 @@ export const texts = {
     submissions: "Submissões",
     modelApresentation: "Modelo de apresentação",
     modelEposter: "Modelo e-poter",
-    exposanea: "Exposânea",
+    exposanea: "Exposanea",
     exhibitors: "Expositores",
     register: "Inscrições",
     information: "Informações",
