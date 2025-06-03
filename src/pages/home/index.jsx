@@ -1,5 +1,6 @@
 import { Footer } from "../../components/footer";
 import { Header } from "../../components/header";
+import { SectionAnimation } from "../../components/ui/sectionAnimation";
 import { Exle } from "./axle";
 import { Banner } from "./banner";
 import { Climate } from "./climate";
@@ -19,16 +20,34 @@ export function Home() {
     <div>
       <Header />
       <main>
-        <Banner />
-        <Subscribe />
-        <Testimony />
+        <SectionAnimation>
+          <Banner />
+        </SectionAnimation>
+        <SectionAnimation>
+          <Subscribe />
+        </SectionAnimation>
+        <SectionAnimation>
+          <Testimony />
+        </SectionAnimation>
         <Divider />
-        <ExpoSanea />
-        <Climate />
-        <Theme />
-        <Exle />
-        <Panel />
-        <Objectives />
+        <SectionAnimation>
+          <ExpoSanea />
+        </SectionAnimation>
+        <SectionAnimation>
+          <Climate />
+        </SectionAnimation>
+        <SectionAnimation>
+          <Theme />
+        </SectionAnimation>
+        <SectionAnimation>
+          <Exle />
+        </SectionAnimation>
+        <SectionAnimation>
+          <Panel />
+        </SectionAnimation>
+        <SectionAnimation>
+          <Objectives />
+        </SectionAnimation>        
       </main>
       <Footer />
     </div>

@@ -25,12 +25,7 @@ export function Header() {
         {/* Animação do menu mobile */}
         <AnimatePresence>
           {(menuOpen || window.innerWidth >= 768) && (
-            <motion.div 
-              key="menu"
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.3 }}
+            <div
               className={`
                 flex-col md:flex-row md:flex w-full md:w-auto
                 ${menuOpen ? "flex absolute top-14 left-0 bg-[#235D89] w-full z-50 px-4 py-4 gap-4" : "hidden"}
@@ -39,23 +34,25 @@ export function Header() {
               `}
             >
               <Dropdown.Root title={texts[language].event}>
-                <Dropdown.Button>{texts[language].date}</Dropdown.Button>
-                <Dropdown.Button>{texts[language].information}</Dropdown.Button>
+                <Dropdown.Button href="/local">{texts[language].date}</Dropdown.Button>
+                <Dropdown.Button href="/informations">{texts[language].information}</Dropdown.Button>
                 <Dropdown.Button>{texts[language].hosting}</Dropdown.Button>
                 <Dropdown.Button href="/edicao2024">{texts[language].edition}</Dropdown.Button>
               </Dropdown.Root>
               <Dropdown.Root title={texts[language].programming}>
-                <Dropdown.Button href="#paineis">{texts[language].painels}</Dropdown.Button>
-                <Dropdown.Button href="/programming">{texts[language].miniCourse}</Dropdown.Button>
+                <Dropdown.Button href="/programming">{texts[language].programming}</Dropdown.Button>
+                <Dropdown.Button href="/#paineis">{texts[language].painels}</Dropdown.Button>
+                <Dropdown.Button href="">{texts[language].miniCourse}</Dropdown.Button>
                 <Dropdown.Button>{texts[language].visit}</Dropdown.Button>
               </Dropdown.Root>
               <NavButton>{texts[language].speakers}</NavButton>
               <NavButton href="/submission">{texts[language].submissions}</NavButton>
               <Dropdown.Root title={texts[language].exposanea}>
+                <Dropdown.Button href="/exposanea">{texts[language].exposanea}</Dropdown.Button>
                 <Dropdown.Button>{texts[language].exhibitors}</Dropdown.Button>
               </Dropdown.Root>
               <NavButton href="https://www.even3.com.br/2saneabrasil/" >{texts[language].register}</NavButton>
-            </motion.div>
+            </div>
           )}
         </AnimatePresence>
         {/* Botões de idioma */}
