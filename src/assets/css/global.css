@@ -2,14 +2,14 @@
 
 @font-face {
   font-family: "Bahnschrift";
-  src: url("./fonts/Bahnschrift/Bahnschrift.ttf") format("truetype");
+  src: url("/fonts/Bahnschrift/Bahnschrift.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "PlusJakartaSans";
-  src: url("./fonts/PlusJakartaSans/PlusJakartaSans-Variable.ttf") format("truetype");
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-Variable.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

@@ -1,7 +1,30 @@
 import { LiaArrowRightSolid } from "react-icons/lia"
 import { Button } from "../../../components/ui/button";
+import { useContext } from "react";
+import { LanguageContext } from "../../../contexts/LanguageContext";
+
+const translations = {
+  pt: {
+    title: "A Universidade Federal do Vale do São Francisco (UNIVASF) tem o prazer de apresentar o II Sanea Brasil, agora em sua edição internacional.",
+    text: "Em 2025, reforçamos o compromisso em oferecer um ambiente propício para a construção de políticas públicas eficazes, o desenvolvimento de tecnologias inovadoras e a ampliação de parcerias estratégicas, garantindo um futuro mais sustentável e acessível para todos.",
+    subscribe: "Inscreva-se"
+  },
+  en: {
+    title: "The Federal University of Vale do São Francisco (UNIVASF) is pleased to present the II Sanea Brasil, now in its international edition.",
+    text: "In 2025, we reinforce our commitment to providing an environment conducive to building effective public policies, developing innovative technologies, and expanding strategic partnerships, ensuring a more sustainable and accessible future for all.",
+    subscribe: "Subscribe"
+  },
+  es: {
+    title: "La Universidad Federal del Valle de São Francisco (UNIVASF) tiene el placer de presentar el II Sanea Brasil, ahora en su edición internacional.",
+    text: "En 2025, reforzamos el compromiso de ofrecer un entorno propicio para la construcción de políticas públicas eficaces, el desarrollo de tecnologías innovadoras y la ampliación de alianzas estratégicas, garantizando un futuro más sostenible y accesible para todos.",
+    subscribe: "Inscribirse"
+  }
+};
 
 export function Subscribe() {
+  const { language } = useContext(LanguageContext);
+  const t = translations[language] || translations.pt;
+
   return (
     <section id="subscribe" className="w-full flex items-center justify-center p-10">
       <div className="w-full max-w-[1250px] md:mb-20 flex flex-col items-center md:flex-row">
@@ -26,15 +49,13 @@ export function Subscribe() {
         </div>
         <div className="w-full md:w-[55%] h-full flex flex-col items-start justify-start gap-4 pt-20">
           <h1 className="text-2xl font-bold text-[#235D89]">
-            A Universidade Federal do Vale do São Francisco (UNIVASF) tem o prazer de apresentar o II Sanea Brasil, agora em sua edição internacional.
+            {t.title}
           </h1>
           <p className="text-lg text-[#235D89]">
-            Em 2025, reforçamos o compromisso em oferecer um ambiente propício para a construção de políticas públicas eficazes,
-            o desenvolvimento de tecnologias inovadoras e a ampliação de parcerias estratégicas,
-            garantindo um futuro mais sustentável e acessível para todos. 
+            {t.text}
           </p>
           <Button Icon={LiaArrowRightSolid} href="https://www.even3.com.br/2saneabrasil/" className="mt-10">
-            Inscreva-se
+            {t.subscribe}
           </Button>
         </div>
       </div>

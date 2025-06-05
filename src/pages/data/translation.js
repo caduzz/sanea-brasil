@@ -1,0 +1,50 @@
+export const translations = {
+  pt: {
+    pageTitle: "DATA | LOCAL",
+    mainTitle: "A Universidade Federal do Vale do São Francisco (UNIVASF) tem o prazer de apresentar o II Sanea Brasil, agora em sua edição internacional.",
+    mainText: "Em 2025, reforçamos o compromisso em oferecer um ambiente propício para a construção de políticas públicas eficazes, o desenvolvimento de tecnologias inovadoras e a ampliação de parcerias estratégicas, garantindo um futuro mais sustentável e acessível para todos.",
+    date: "Data",
+    dateDesc: "29 a 31 de outubro 2025",
+    time: "Horário",
+    timeDesc: "8h às 17h",
+    place: "Local",
+    placeDesc: "Centro de Convenções Nilo Coelho",
+    info1: "O evento acontecerá no Centro de convenções Nilo Coelho - Av. do Centenário, Centro, Petrolina - PE, 56302.",
+    info2: "O valor da inscrição dá direito à participação nos três dias do evento, incluindo todos os painéis e o coquetel de abertura.",
+    info3: "A venda será feita em lotes, com o valor da inscrição aumentando progressivamente à medida que cada lote termina.",
+    info4: "Estudantes em situação de vulnerabilidade social possuem desconto de 50%. Entre em contato enviando cópia da sua carteirinha para saneabrasil@univasf.edu.br para receber seu código de desconto.",
+    info5: "A entrada é gratuita para representantes da mídia. Favor entrar em contato com saneabrasil@univasf.edu.br para obter credenciamento."
+  },
+  en: {
+    pageTitle: "DATE | LOCATION",
+    mainTitle: "The Federal University of Vale do São Francisco (UNIVASF) is pleased to present the II Sanea Brasil, now in its international edition.",
+    mainText: "In 2025, we reinforce our commitment to providing an environment conducive to building effective public policies, developing innovative technologies, and expanding strategic partnerships, ensuring a more sustainable and accessible future for all.",
+    date: "Date",
+    dateDesc: "October 29 to 31, 2025",
+    time: "Time",
+    timeDesc: "8am to 5pm",
+    place: "Location",
+    placeDesc: "Nilo Coelho Convention Center",
+    info1: "The event will take place at the Nilo Coelho Convention Center - Av. do Centenário, Centro, Petrolina - PE, 56302.",
+    info2: "The registration fee entitles you to participate in all three days of the event, including all panels and the opening cocktail.",
+    info3: "Tickets will be sold in batches, with the registration fee increasing progressively as each batch ends.",
+    info4: "Students in social vulnerability are entitled to a 50% discount. Contact us by sending a copy of your student card to saneabrasil@univasf.edu.br to receive your discount code.",
+    info5: "Admission is free for media representatives. Please contact saneabrasil@univasf.edu.br for accreditation."
+  },
+  es: {
+    pageTitle: "FECHA | LOCAL",
+    mainTitle: "La Universidad Federal del Valle de São Francisco (UNIVASF) tiene el placer de presentar el II Sanea Brasil, ahora en su edición internacional.",
+    mainText: "En 2025, reforzamos el compromiso de ofrecer un entorno propicio para la construcción de políticas públicas eficaces, el desarrollo de tecnologías innovadoras y la ampliación de alianzas estratégicas, garantizando un futuro más sostenible y accesible para todos.",
+    date: "Fecha",
+    dateDesc: "29 al 31 de octubre de 2025",
+    time: "Horario",
+    timeDesc: "8h a 17h",
+    place: "Lugar",
+    placeDesc: "Centro de Convenciones Nilo Coelho",
+    info1: "El evento se llevará a cabo en el Centro de Convenciones Nilo Coelho - Av. do Centenário, Centro, Petrolina - PE, 56302.",
+    info2: "El valor de la inscripción da derecho a participar en los tres días del evento, incluyendo todos los paneles y el cóctel de apertura.",
+    info3: "La venta se realizará en lotes, con el valor de la inscripción aumentando progresivamente a medida que cada lote termina.",
+    info4: "Los estudiantes en situación de vulnerabilidad social tienen un 50% de descuento. Contacte enviando una copia de su carné a saneabrasil@univasf.edu.br para recibir su código de descuento.",
+    info5: "La entrada es gratuita para representantes de los medios. Por favor, contacte a saneabrasil@univasf.edu.br para obtener acreditación."
+  }
+};

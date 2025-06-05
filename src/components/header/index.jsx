@@ -23,6 +23,9 @@ export function Header() {
           <span className={`block w-6 h-0.5 bg-white transition-all duration-200 ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`}></span>
         </button>
         {/* Animação do menu mobile */}
+        <div className="md:absolute md:left-4">
+          <a href="/"><img src="./svg/sanea-logo-header.svg" className="w-40"/></a>
+        </div>
         <AnimatePresence>
           {(menuOpen || window.innerWidth >= 768) && (
             <div
@@ -56,7 +59,7 @@ export function Header() {
           )}
         </AnimatePresence>
         {/* Botões de idioma */}
-        <div className="h-full flex items-center gap-2 absolute right-4">
+        <div className="h-full flex items-center gap-2 md:absolute md:right-4">
           <LangButton lang={"pt"} src="./svg/bandeira-bra.svg" />
           <LangButton lang={"en"} src="./svg/bandeira-usa.svg" />
           <LangButton lang={"es"} src="./bandeira-esp.png" />

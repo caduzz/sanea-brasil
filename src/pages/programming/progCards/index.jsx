@@ -1,9 +1,14 @@
+import { useContext } from "react";
 import { programming } from "../../../constants/programming";
+import { LanguageContext } from "../../../contexts/LanguageContext";
 
 export function ProgCard () {
+  const { language } = useContext(LanguageContext);
+  const programmingLanguage = programming[language] || programming.pt;
+
   return (
     <div className="flex flex-col items-start w-full mb-20">
-      {programming.map(({ data, dia, atividades}) => (
+      {programmingLanguage.map(({ data, dia, atividades }) => (
         <div key={dia+data} className="w-full flex flex-col items-start justify-start gap-4 mt-8">
           <div className="w-auto p-6 bg-[#477599] rounded-2xl">
             <h1 className="text-white text-2xl font-bold">{data}: {dia}</h1>
